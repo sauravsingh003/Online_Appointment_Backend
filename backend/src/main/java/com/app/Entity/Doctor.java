@@ -34,7 +34,6 @@ public class Doctor {
 	
 	
 	@Lob
-	@Column(columnDefinition = "LONGBLOB") // To store image as BLOB
 	private byte[] doctorimage;
 
 	@ManyToOne
